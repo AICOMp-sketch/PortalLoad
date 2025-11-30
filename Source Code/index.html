@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Loading Animation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+    <div class="loading-container">
+        <div class="portal-glow"></div>
+        
+        <div class="floating-elements" id="floatingElements"></div>
+        
+        <div class="portal-container">
+            <div class="portal">
+                <div class="portal-inner">
+                    <div class="portal-core"></div>
+                </div>
+                <div class="energy-ring"></div>
+                <div class="energy-ring"></div>
+                <div class="energy-ring"></div>
+                <div class="particles" id="particles"></div>
+            </div>
+        </div>
+        
+        <div class="loading-text">INITIALIZING PORTAL SEQUENCE</div>
+        
+        <div class="progress-container">
+            <div class="progress-bar"></div>
+        </div>
+        
+        <div class="status-text" id="statusText">Establishing connection...</div>
+        
+        <div class="loading-complete" id="loadingComplete">
+            <h2 class="complete-title">PORTAL ACTIVATED</h2>
+            <p class="complete-subtitle">Dimensional gateway stabilized and ready</p>
+            <button class="enter-button" id="enterButton">ENTER PORTAL</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
